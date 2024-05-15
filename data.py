@@ -8,7 +8,8 @@ compras_data = [
     {"Codigo": 7, "Fecha": "2024-04-22", "Proveedor": "Almacén Eta", "Descripcion": "Compra de productos de papelería", "Cantidad de Articulos": 18, "Impuestos": 110, "Total": 1300},
     {"Codigo": 8, "Fecha": "2024-04-21", "Proveedor": "Farmacia Theta", "Descripcion": "Compra de medicamentos", "Cantidad de Articulos": 10, "Impuestos": 60, "Total": 900},
     {"Codigo": 9, "Fecha": "2024-04-20", "Proveedor": "Electrónicos Iota", "Descripcion": "Compra de dispositivos electrónicos", "Cantidad de Articulos": 6, "Impuestos": 40, "Total": 600},
-    {"Codigo": 10, "Fecha": "2024-04-19", "Proveedor": "Juguetería Kappa", "Descripcion": "Compra de juguetes educativos", "Cantidad de Articulos": 15, "Impuestos": 100, "Total": 1200}
+    {"Codigo": 10, "Fecha": "2024-04-19", "Proveedor": "Juguetería Kappa", "Descripcion": "Compra de juguetes educativos", "Cantidad de Articulos": 15, "Impuestos": 100, "Total": 1200},
+    {"Codigo": 11, "Fecha": "2024-04-19", "Proveedor": "Juguetería Kappa", "Descripcion": "Compra de juguetes educativos", "Cantidad de Articulos": 15, "Impuestos": 100, "Total": 1200}
 ]
 
 

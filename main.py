@@ -2,9 +2,17 @@ from fastapi import FastAPI
 from typing import List
 from data import compras_data, pasivos_data,ventas_data, gastos_data, cuentas_por_cobrar_data,cuentas_por_pagar_data,activos_data,capital_contable_data,transacciones_bancarias_data,impuestos_data, asientos_contables_data,estados_financieros_data
 import uvicorn
+from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:4200"], 
+    allow_credentials=True,
+    allow_methods=["*"],  
+    allow_headers=["*"],  
+)
 
 @app.get("/compras/getall", response_model=List[dict])
 async def getAllCompras():
