@@ -13,3 +13,10 @@ Utiliza el siguiente comando para iniciar el servicio en el puerto 8080:
    ```bash
    uvicorn main:app --host 0.0.0.0 --port 8080
 ```
+
+## Ejecucion de pruebas unitarias
+Para ejecutar las pruebas unitarias, nos podemos limitar a correr el siguiente comando:
+   ```bash
+   pytest
+```
+De esta manera, se ejecutará de manera automática el archivo test_main.py que contiene toda la lógica de las pruebas.
